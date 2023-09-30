@@ -1,0 +1,27 @@
+{
+  "name": "node_hw_1",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "description": "First project",
+  "main": "server.js",
+  "keywords": [
+    "node",
+    "nodemon"
+  ],
+  "author": "Roman",
+  "license": "MIT",
+  "engines": {
+    "node": "18",
+    "npm": "9"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
